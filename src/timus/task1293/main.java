@@ -25,5 +25,4 @@ public class main {
             System.out.println("Панель недопустимого размера");
         }
     }
-
 }
