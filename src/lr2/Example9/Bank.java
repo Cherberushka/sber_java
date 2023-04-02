@@ -11,6 +11,8 @@ public class Bank implements BankAccount {
     public void withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount;
+        } else {
+            System.out.println("На счёте недостаточно средств для выполнения операции.");
         }
     }
 
