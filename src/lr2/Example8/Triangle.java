@@ -15,6 +15,7 @@ public class Triangle implements Shape {
         this.side3 = side3;
     }
 
+    // Переопределение метода расчёта площади фигуры
     @Override
     public double calculateArea() {
         double p = (side1 + side2 + side3) / 2;
@@ -22,6 +23,7 @@ public class Triangle implements Shape {
         return area;
     }
 
+    // Переопределение метода расчёта перриметра фигуры
     @Override
     public double calculatePerimeter() {
         return side1 + side2 + side3;

@@ -9,11 +9,13 @@ public class Circle implements Shape {
         this.radius = radius;
     }
 
+    // Переопределение метода расчёта площади фигуры
     @Override
     public double calculateArea() {
         return Math.PI * Math.pow(radius, 2);
     }
 
+    // Переопределение метода расчёта перриметра фигуры
     @Override
     public double calculatePerimeter() {
         return 2 * Math.PI * radius;
